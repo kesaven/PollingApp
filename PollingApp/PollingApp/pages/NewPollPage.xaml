@@ -1,0 +1,20 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:local="clr-namespace:PollingApp"
+x:Class="PollingApp.Pages.NewPollPage"
+NavigationPage.HasNavigationBar="True">
+
+<ScrollView Padding="20">
+        <StackLayout>
+            <Label Text="Question:" />
+                <Editor />
+                <Label Text="Option A:" />
+                <Editor />
+                <Label Text="Option B:" />
+                <Editor />
+            <Button Text="Submit" Clicked="SavePoll"></Button>
+         </StackLayout>
+     </ScrollView>
+        
+    
+</ContentPage>

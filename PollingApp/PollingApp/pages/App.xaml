@@ -1,0 +1,10 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PollingApp.Pages.App">
+    <Application.Resources>
+        <Style TargetType="StackLayout">
+            <Setter Property="VerticalOptions" Value="Center"></Setter>
+            <Setter Property="Padding" Value="20"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

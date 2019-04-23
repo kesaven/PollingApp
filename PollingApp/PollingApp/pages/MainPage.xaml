@@ -1,0 +1,12 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:local="clr-namespace:PollingApp"
+x:Class="PollingApp.Pages.MainPage"
+NavigationPage.HasNavigationBar="False">
+
+    <StackLayout VerticalOptions="Center" Padding="20">
+        <Button Text="New poll" Clicked="NewPollPressed"></Button>
+        <Button Text="Results"></Button>
+    </StackLayout>
+
+</ContentPage>
